@@ -1,0 +1,57 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: rgba (0, 0, 0, 0.7);
+    padding: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav input[type="text"] {
+    padding: 5px;
+}
+
+nav button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.home-intro {
+    height: 100vh;
+    background: url(background_image.jpg) no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.home-intro h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.home-intro p {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
